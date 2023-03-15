@@ -1,0 +1,41 @@
+header, footer {
+    background-color: #1F2937;
+}
+
+#main {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8
+}
+
+.hlink {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+header div {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+header button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.container .info div {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+#body2 {
+    background-color: #E5E7EB;
+}
+
+#body2 p {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
