@@ -97,6 +97,7 @@ img[alt="Artificial Intelligence"] {
 
 #containerinhead1 div {
     width: 450px;
+    padding: 20px;
 }
 
 #containerinhead1 div button {
@@ -107,6 +108,7 @@ img[alt="Artificial Intelligence"] {
     text-align: center;
     color: #F9FAF8;
     font-weight: bold;
+    border: none;
 }
 
 #containerbody1 {
@@ -118,4 +120,26 @@ img[alt="Artificial Intelligence"] {
 #containerbody1 .info img {
     width: 300px;
     height: 200px;
+}
+
+#containerbody3 {
+    display: flex;
+    background-color: #3882F6;
+    margin: 80px 200px;
+    padding: 60px 120px;
+    border-radius: 10px;
+    color: #F9FAF8;
+    justify-content: space-between;
+
+}
+
+#containerbody3 button {
+    width: 100px;
+    height: 35px;
+    align-self: center;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border: solid #F9FAF8 thin;
 }
