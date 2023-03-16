@@ -12,9 +12,14 @@ header, footer {
     color: #F9FAF8
 }
 
-.hlink, .container .info div, header p{
+.hlink, #containerbody2 .info div, header p{
     font-size: 18px;
     color: #E5E7EB;
+}
+
+#containerbody1 {
+    font-size: 18px;
+    color: gray;
 }
 
 #logo {
@@ -38,6 +43,7 @@ header, footer {
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
+    text-align: center;
 }
 
 #containerhead {
@@ -81,4 +87,15 @@ img[alt="Artificial Intelligence"] {
     text-align: center;
     color: #F9FAF8;
     font-weight: bold;
+}
+
+#containerbody1 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#containerbody1 .info img {
+    width: 300px;
+    height: 200px;
 }
