@@ -31,12 +31,31 @@ header, footer {
 
 #body2 {
     background-color: #E5E7EB;
+    
 }
 
-#body2 p {
+#containerbody2 div:first-child {
     font-size: 36px;
     font-style: italic;
+    color: #48505a;
+}
+
+#containerbody2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#author {
+    align-self: flex-end;
     color: #1F2937;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 #body1 h1 {
@@ -44,6 +63,7 @@ header, footer {
     font-weight: bold;
     color: #1F2937;
     text-align: center;
+    margin-top: 20px;
 }
 
 #containerhead {
