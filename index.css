@@ -3,7 +3,11 @@ body {
 }
 header, footer {
     background-color: #1F2937;
+    margin: -8px -8px 0px -8px;
+}
 
+#body1, #body3 {
+    margin: 0px -8px;
 }
 
 #main {
@@ -31,6 +35,7 @@ header, footer {
 
 #body2 {
     background-color: #E5E7EB;
+    margin: 0px -8px;
     
 }
 
@@ -142,4 +147,21 @@ img[alt="Artificial Intelligence"] {
     color: #F9FAF8;
     font-weight: bold;
     border: solid #F9FAF8 thin;
+}
+
+footer, footer p a{
+    color: #F9FAF8;
+    font-size: 18px;
+    text-align: center;
+}
+
+footer {
+    padding: 30px;
+    margin-bottom: -8px;
+}
+
+#containerhead img {
+    border-radius: 30px;
+    margin-top: 10px;
+    width: 60px;
 }
